@@ -15,7 +15,6 @@ After completing this assignment, you should understand:
 * SQL Select Statements
 * Inner Joins
 * Left Joins
-* Many to Many Relationships
 
 ## Details
 
