@@ -62,7 +62,6 @@ Complete the following query objectives:
 * Find the user with the highest average rating
 * Find the user with the highest average rating with more than 50 reviews
 * Find the movies with an average rating over 4
-* For each genre find the total number of reviews as well as the average review sort by highest average review.
 
 ## Hard Mode
 * Use concat and research about internet movie database to produce a valid url from the imdbid
