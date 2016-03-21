@@ -49,7 +49,20 @@ Complete the following query objectives:
 * Order the previous objective by newest to oldest
 * Find the comedies from 2005 and get the title and imdbid from the links table
 * Find all movies that have no ratings
-* Find all fantasy movies using the many to many join between movies and genres through movie_genre table.
+
+
+### Complete the following aggregation objectives:
+
+* Get the average rating for a movie
+* Get the total ratings for a movie
+* Get the total movies for a genre
+* Get the average rating for a user
+
+* Find the user with the most ratings
+* Find the user with the highest average rating
+* Find the user with the highest average rating with more than 50 reviews
+* Find the movies with an average rating over 4
+* For each genre find the total number of reviews as well as the average review sort by highest average review.
 
 ## Hard Mode
 * Use concat and research about internet movie database to produce a valid url from the imdbid
