@@ -108,7 +108,15 @@ JOIN ratings r ON r.movieid = movie_genre.movieid
 GROUP BY genre.genres
 ORDER BY avg(r.rating) DESC;
 
+SELECT concat('http://www.imdb.com/title/tt', links.imdbid)
+from links;
 
+SELECT concat('https://www.themoviedb.org/movie/', links.tmdbid)
+from links;
+
+-- Can't find The Unusuals, the following does not return anything.
+SELECT * FROM movies
+WHERE lower(movies.title) LIKE '%unusual%';
 
 
 
